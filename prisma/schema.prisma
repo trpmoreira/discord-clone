@@ -46,6 +46,7 @@ model Server {
 
 enum MemberRole {
   ADMIN
+  MODERATOR
   MEMBER
   GUEST
 }
@@ -70,6 +71,7 @@ model Member {
 enum ChannelType {
   TEXT
   VOICE
+  AUDIO
   VIDEO
 }
 
